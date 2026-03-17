@@ -14,6 +14,10 @@ public class Aluno {
     private String nome;
     private Double nota;
 
+    public Aluno(){
+
+    }
+
     public Aluno(Long id, String nome, Double nota){
         this.id = id;
         this.nome = nome;

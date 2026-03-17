@@ -25,7 +25,7 @@ public class AlunoController {
         return service.buscarPorId(id).orElse(null);
     }
 
-    @PatchMapping
+    @PostMapping
     public Aluno salvar(@RequestBody Aluno aluno){
         return service.salvar(aluno);
     }
